@@ -16,19 +16,19 @@ Aplikace se stará o to, aby při přerušení (např. při KeyboardInterrupt ne
 
 # Spuštění aplikace:
 Spusťte aplikaci v režimu nohup, aby mohla běžet na pozadí:
-nohup python3 iAquaponics.py > stdout.log 2>&1 &
+`nohup python3 iAquaponics.py > stdout.log 2>&1 &`
 # Zkontrolujte, zda aplikace běží:
-ps aux | grep python3
+`ps aux | grep python3`
 # Zastavení aplikace:
-Najděte PID procesu:
+## Najděte PID procesu:
 ` ps aux | grep python3 `
-Ukončete aplikaci:
-kill <PID>
+## Ukončete aplikaci:
+`kill <PID>`
 
 # Zkontrolujte soubor stdout.log pro výstup z aplikace:
-cat stdout.log
+`cat stdout.log`
 Chcete-li zobrazit obsah souboru stdout.log v reálném čase, můžete použít příkaz: 
-tail -f stdout.log
+`tail -f stdout.log`
 
 
 
